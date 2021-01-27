@@ -1,0 +1,32 @@
+{"intents":  [
+  {
+    "tag": "greetings",
+    "patterns": ["hello","hey","hi","good day","hola","whats up","how's it going"],
+    "responses": ["Hello!","Hey!","What can I do for you?"]
+  },
+   {
+    "tag": "goodbye",
+    "patterns": ["cya","see you later","bye","goodbye","adios","good day","see ya"],
+    "responses": ["Sad to see you go :(","Talk to you later","Goodbye!"]
+  },
+   {
+    "tag": "age",
+    "patterns": ["how old","how old is rakip","what is your age","how old are you","age?"],
+    "responses": ["Rakip is 26 years old!","Hey!","26 years old!"]
+  },
+   {
+    "tag": "name",
+    "patterns": ["whats your name?","what should I call you?","what is your name>","who are you?","Can you tell me your name?"],
+    "responses": ["Call me Jimmy","Im Jimmy!","Im Jimmy! Rakip's assistant"]
+  },
+   {
+    "tag": "shop",
+    "patterns": ["Id like to buy something","what are your products?","what do you recommend?","what are you selling?"],
+    "responses": ["Hello!","Hey!","What can I do for you?"]
+  },
+   {
+    "tag": "hours",
+    "patterns": ["when are you guys open","what are your hours","how long are you open for"],
+    "responses": ["24/7"]
+  }
+]}
